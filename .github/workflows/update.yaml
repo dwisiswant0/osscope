@@ -1,0 +1,35 @@
+name: Update
+
+on:
+  schedule:
+    - cron: "30 * * * *" # Every 1 hour at minute 30.
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking out repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          sudo apt update -y
+          sudo apt install jq -y
+
+      - name: Updating list
+        id: update
+        run: ./.github/scrape.sh list.txt
+
+      - name: Updating README
+        if: steps.update.outputs.changes > 0
+        run: IN_SCOPES=$(for i in `cat list.txt`; do echo -e "- https://github.com/${i}"; done) envsubst < .github/_readme.tpl | tee README.md
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "me@dw1.io"
+          git config --local user.name "Dwi Siswanto"
+          git add .
+          git commit -m "Update list [$(date)] :robot:"
+          git push origin master
