@@ -23,10 +23,12 @@ jobs:
         run: ./.github/scrape.sh list.txt
 
       - name: Updating README
+        id: readme
         if: steps.update.outputs.changes > 0
         run: IN_SCOPES=$(for i in `cat list.txt`; do echo -e "- https://github.com/${i}"; done) envsubst < .github/_readme.tpl | tee README.md
 
       - name: Commit changes
+        if: steps.readme.outcome != 'skipped'
         run: |
           git config --local user.email "me@dw1.io"
           git config --local user.name "Dwi Siswanto"
