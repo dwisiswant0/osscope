@@ -280,3 +280,4 @@ liberapay/liberapay
 spiffe/spiffe
 spiffe/spire
 endojs
+rust-lang/rust
