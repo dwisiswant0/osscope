@@ -294,6 +294,7 @@ To make it easier to do security research, pen-test (whitebox perspective), loca
 - https://github.com/spiffe/spire
 - https://github.com/endojs
 - https://github.com/rust-lang/rust
+- https://github.com/pyca/infra
 </details>
 
 You can download a collection of repositories in the [list.txt](https://github.com/dwisiswant0/osscope/blob/master/list.txt) file, thus you can do mass cloning with:
