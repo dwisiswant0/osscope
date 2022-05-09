@@ -282,3 +282,11 @@ spiffe/spire
 endojs
 rust-lang/rust
 pyca/infra
+trufflesuite/drizzle
+trufflesuite/drizzle-utils
+trufflesuite/ganache
+trufflesuite/ganache-ui
+trufflesuite/preserves
+trufflesuite/truffle
+trufflesuite/trufflesuite
+trufflesuite/vscode-ext

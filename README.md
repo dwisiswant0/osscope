@@ -295,6 +295,14 @@ To make it easier to do security research, pen-test (whitebox perspective), loca
 - https://github.com/endojs
 - https://github.com/rust-lang/rust
 - https://github.com/pyca/infra
+- https://github.com/trufflesuite/drizzle
+- https://github.com/trufflesuite/drizzle-utils
+- https://github.com/trufflesuite/ganache
+- https://github.com/trufflesuite/ganache-ui
+- https://github.com/trufflesuite/preserves
+- https://github.com/trufflesuite/truffle
+- https://github.com/trufflesuite/trufflesuite
+- https://github.com/trufflesuite/vscode-ext
 </details>
 
 You can download a collection of repositories in the [list.txt](https://github.com/dwisiswant0/osscope/blob/master/list.txt) file, thus you can do mass cloning with:
