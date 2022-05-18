@@ -290,3 +290,4 @@ trufflesuite/preserves
 trufflesuite/truffle
 trufflesuite/trufflesuite
 trufflesuite/vscode-ext
+cloudflare
