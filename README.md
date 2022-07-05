@@ -305,6 +305,7 @@ To make it easier to do security research, pen-test (whitebox perspective), loca
 - https://github.com/trufflesuite/vscode-ext
 - https://github.com/cloudflare
 - https://github.com/adobe
+- https://github.com/argoproj/argoproj
 </details>
 
 You can download a collection of repositories in the [list.txt](https://github.com/dwisiswant0/osscope/blob/master/list.txt) file, thus you can do mass cloning with:

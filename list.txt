@@ -292,3 +292,4 @@ trufflesuite/trufflesuite
 trufflesuite/vscode-ext
 cloudflare
 adobe
+argoproj/argoproj
