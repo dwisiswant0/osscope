@@ -308,6 +308,10 @@ To make it easier to do security research, pen-test (whitebox perspective), loca
 - https://github.com/argoproj/argoproj
 - https://github.com/rack/rack
 - https://github.com/pixiv/charcoal
+- https://github.com/raivo-otp/apns-server
+- https://github.com/raivo-otp/ios-application
+- https://github.com/raivo-otp/issuer-icons
+- https://github.com/raivo-otp/macos-receiver
 </details>
 
 You can download a collection of repositories in the [list.txt](https://github.com/dwisiswant0/osscope/blob/master/list.txt) file, thus you can do mass cloning with:

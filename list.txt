@@ -295,3 +295,7 @@ adobe
 argoproj/argoproj
 rack/rack
 pixiv/charcoal
+raivo-otp/apns-server
+raivo-otp/ios-application
+raivo-otp/issuer-icons
+raivo-otp/macos-receiver
