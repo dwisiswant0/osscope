@@ -312,6 +312,18 @@ To make it easier to do security research, pen-test (whitebox perspective), loca
 - https://github.com/raivo-otp/ios-application
 - https://github.com/raivo-otp/issuer-icons
 - https://github.com/raivo-otp/macos-receiver
+- https://github.com/hyperledger/fabric-amcl
+- https://github.com/hyperledger/fabric-chaincode-go
+- https://github.com/hyperledger/fabric-cli
+- https://github.com/hyperledger/fabric-config
+- https://github.com/hyperledger/fabric-contract-api-go
+- https://github.com/hyperledger/fabric-gateway
+- https://github.com/hyperledger/fabric-gateway-java
+- https://github.com/hyperledger/fabric-lib-go
+- https://github.com/hyperledger/fabric-private-chaincode
+- https://github.com/hyperledger/fabric-protos
+- https://github.com/hyperledger/fabric-protos-go
+- https://github.com/hyperledger/fabric-protos-go-apiv2
 </details>
 
 You can download a collection of repositories in the [list.txt](https://github.com/dwisiswant0/osscope/blob/master/list.txt) file, thus you can do mass cloning with:

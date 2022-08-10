@@ -299,3 +299,15 @@ raivo-otp/apns-server
 raivo-otp/ios-application
 raivo-otp/issuer-icons
 raivo-otp/macos-receiver
+hyperledger/fabric-amcl
+hyperledger/fabric-chaincode-go
+hyperledger/fabric-cli
+hyperledger/fabric-config
+hyperledger/fabric-contract-api-go
+hyperledger/fabric-gateway
+hyperledger/fabric-gateway-java
+hyperledger/fabric-lib-go
+hyperledger/fabric-private-chaincode
+hyperledger/fabric-protos
+hyperledger/fabric-protos-go
+hyperledger/fabric-protos-go-apiv2
